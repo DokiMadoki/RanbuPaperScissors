@@ -31,13 +31,13 @@ function playGame(playerOption){
     
     switch(gameResult){
         case "It is a Tie":
-            wrapper.style.backgroundImage = "url(/images/c-tie.png)";
+            wrapper.style.backgroundImage = "url(/RanbuPaperScissors/images/c-tie.png)";
             break;
         case "You Lose!":
-            wrapper.style.backgroundImage = "url(/images/c-win.png)";
+            wrapper.style.backgroundImage = "url(/RanbuPaperScissors/images/c-win.png)";
             break;
         case "You Win!":
-            wrapper.style.backgroundImage = "url(/images/c-loss.png)";
+            wrapper.style.backgroundImage = "url(/RanbuPaperScissors/images/c-loss.png)";
             break;
     }
 }
